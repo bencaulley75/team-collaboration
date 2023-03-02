@@ -1,23 +1,16 @@
 body {
-    background-color: #344a72;
+    background-color:  rgb(9, 2, 16);
     font-family: "Roboto", sans-serif;
   }
   
   .signup-box {
-    width: 500px;
-    height: 620px;
+    width: 800px;
+    height: 1000px;
     margin: auto;
     background-color: white;
     border-radius: 3px;
   }
   
-  .login-box {
-    width: 500px;
-    height: 280px;
-    margin: auto;
-    border-radius: 3px;
-    background-color: white;
-  }
   
   h1 {
     text-align: center;
@@ -29,8 +22,9 @@ body {
   }
   
   form {
-    width: 300px;
+    width: 650px;
     margin-left: 20px;
+
   }
   
   form label {
@@ -51,8 +45,9 @@ body {
     width: 320px;
     height: 35px;
     margin-top: 20px;
+    text-align: center;
     border: none;
-    background-color: #49c1a2;
+    background-color:rgb(136, 0, 255);
     color: white;
     font-size: 18px;
   }
@@ -68,6 +63,6 @@ body {
     margin-top: -10px;
   }
   .para-2 a {
-    color: #49c1a2;
+    color:  rgb(255, 162, 0);
   }
   
