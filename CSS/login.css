@@ -7,7 +7,7 @@
   }
   
   body {
-    background: rgb(136, 0, 255);
+    background: black;
     font-family: 'Rubik', sans-serif;
   }
   
@@ -21,7 +21,7 @@
     -webkit-box-direction: normal;
             flex-direction: column;
     border-radius: 4px;
-    box-shadow: 0 2px 25px rgb(11, 7, 0)
+    box-shadow: 0 2px 25px  rgb(136, 0, 255);
   }
   .login-form h1 {
     padding: 35px 35px 0 35px;
@@ -66,7 +66,7 @@
   }
   .login-form a.link {
     text-decoration: none;
-    color: #747474;
+    color: rgb(255, 162, 0);
     letter-spacing: 0.2px;
     text-transform: uppercase;
     display: inline-block;
