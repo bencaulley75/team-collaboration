@@ -1,0 +1,41 @@
+
+
+body {
+    background-color:  rgb(17, 16, 18);
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color : white;
+    width: 1000px;
+    margin: 450px;
+    padding : 100px;
+    text-align: center;
+  }
+
+select {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgb(255, 162, 0);
+    border-radius: 4px;
+  }
+  
+  option {
+    font-size: 20px;
+  }
+
+  input[type="submit"] {
+    width: 600px;
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+    border: none;
+    background-color:rgb(136, 0, 255);
+    color: white;
+    font-size: 18px;
+  }
+
+  .back-button {
+    color :rgb(255, 162, 0);
+
+    font-size: 20px;
+    padding: 240px;
+  }
