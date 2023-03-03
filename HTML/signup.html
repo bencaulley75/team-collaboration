@@ -12,27 +12,31 @@
     <div class="signup-box">
       <h1>Sign Up</h1>
       <h4>Become One Of The Best Drivers On The Road! </h4>
-      <form>
+      <form method="post" action="../PHP/signup_proc.php">
         <label>First Name</label>
         <input type="text" name="fname" placeholder="" />
         <label>Last Name</label>
         <input type="text"  name="lname"placeholder="" />
         <label>Gender :</label>  
-        <input type="radio" name="gender" value="m" id="male"/> Male <br>  
-        <input type="radio" name="gender" value="f" id="female"/> Female <br>  
+        <input type="radio" name="gender" value="M" id="male"/> Male <br>  
+        <input type="radio" name="gender" value="F" id="female"/> Female <br>  
         <label>Date of Birth</label>
-        <input type="date" name="dob" placeholder="" />
+        <input type="date" name="dob" placeholder="yyyy-mm-dd" />
         <label>Address</label>
         <input type="address" name="ad" placeholder="" />
+        <label>Contact</label>
+        <input type="number" name="con" placeholder="" />
+        <label>Learner Type</label>
+        <input type="number" name="leatype" placeholder="" />
         <label>Email</label>
         <input type="email" name="e-mail" placeholder="" />
         <label>Username</label>
         <input type="text" name="uname" placeholder="" />
         <label>Password</label>
-        <input type="password" placeholder="" />
+        <input type="password" name="password" placeholder="" />
         <label>Confirm Password</label>
-        <input type="password" placeholder="" />
-        <input type="submit" value="Submit" />
+        <input type="password" name="pwd" placeholder="" />
+        <input type="submit" name="Submit" />
       <closeform></closeform></form>
     </div>
     <p class="para-2">
